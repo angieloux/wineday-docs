@@ -1,5 +1,7 @@
 # **T3A2 (Part A) Documentation**
 
+<hr>
+
 # *Table of Contents*
 - [Purpose](#purpose)
     - [Functionality and Features](#functionality-and-features)
@@ -17,6 +19,8 @@
     - [Mobile](#mobile)
     - [Desktop](#desktop)
 
+<hr>
+
 ## **Purpose**
 This developer was an approached by a wine retailer, *WineDay*, based in the Yarra Valley. 
 
@@ -33,13 +37,15 @@ The app's purpose is to fulfil the needs of the business as stated above. Simply
 
 If time allows, for this project, a user will also be able to save their wine preferences and the app will be able to give them new wine recommendations based on that. 
 
+<hr>
+
 ## **Functionality and Features**
 The below are features associated with the first-stage MVP development of the WineDay app. 
 
 ### **All users**
 Anyone that visits the WineDay site will be able to access the following features: 
 
-- Information about the business (about us, contact details, etc)
+- Information about the business (contact details, etc in footer)
 - Search for a wine by keywords
 - Filter wines by region/price/score/varietal
 - Sign up for an account
@@ -55,12 +61,15 @@ Additionally, once authenticated, a logged in customer can:
 - View order history
 
 ### **Potential future features**
+- About us page (history, gallery, etc)
 - Create a admin profile that has exclusive authority to update/delete/add new wine listings & view/amend user profiles.
 - A logged in user can add their wine preferences to their profile & recommendations can be made by the app based on this
 - Add "just in" tab for new wines
 - Add "recommended" tab for recommended wines
 - Add "food pairings" tab for recommended food pairings
 - Search wines by description ("dry", "fruity")
+
+<hr>
 
 ## **Target Audience**
 
@@ -69,6 +78,8 @@ The target audience is anyone that likes wine (so, a wide scope) that is also in
 Additionally, on the business-side, the target audience also extends to the employees of WineDay who can use a user-friendly UI to see stock levels when interacting with customers in store. 
 
 Lastly, if an admin user profile is implemented in the MVP version of this app, it will also include the person/s in charge of maintaining wine listings and user profiles on the app. 
+
+<hr>
 
 ## **Tech stack**
 
@@ -79,6 +90,8 @@ Lastly, if an admin user profile is implemented in the MVP version of this app, 
 |CSS3||||Visual Paradigm||
 |HTML5||||||
 |Material-UI||||||
+
+<hr>
 
 ## **User Stories**
 
@@ -98,23 +111,33 @@ Lastly, if an admin user profile is implemented in the MVP version of this app, 
 
 > 🧁 *Note:* the admin user role is a sprinkle at this stage, and not intentionally being developed in the MVP (unless time permits).
 
+<hr>
 
 ## **Application Architecture Diagram**
 
 ![Application Architecture Diagram](docs/diagrams/application-architecture.png)
+
+<hr>
+
 ## **Dataflow diagrams**
 ### Customer
 ![Dataflow (customer)](docs/diagrams/dataflow-user.png)
-Dataflow (role: guest)
-Anyone who visits the site will be able to have access to search/browse/filter functionality, but will be prompted to log in/sign up if they want to add things to their cart and check out. 
-> 💡 *Note:* upon user testing, if it is deemed a better user experience the decision might be made to allow a guest user to add to cart, and then prompt them to sign in to finalise the checkout process.
+<hr>
 
 ### Guest
+
 ![Dataflow (guest)](docs/diagrams/dataflow-guest.png)
+
+Anyone who visits the site will be able to have access to search/browse/filter functionality, but will be prompted to log in/sign up if they want to add things to their cart and check out. 
+
+> 💡 *Note:* upon user testing, if it is deemed a better user experience the decision might be made to allow a guest user to add to cart, and then prompt them to sign in to finalise the checkout process.
+
+<hr>
+
 ## **Wireframes**
 Two screen sizes have been designed to reflect the UX/UI of the application, desktop and mobile. The tablet view will likely be a mid-point between the two, with the specifics being decided upon user testing (i.e. whether to implement a nav bar menu or a hamburger menu, etc).
 
-A demonstration of how a user will interact with the application is available for both mobile and dekstop in *.gif* form below. In addition, screenshots of each page have been created and annotated in expandable sections below. Consideration has been taken as to spacing, how users interact with different screen sizes, colour scheme and achieving the goal set by the user stories.
+A demonstration of how a user will interact with the application is available for both mobile and dekstop in *.gif* form below. In addition, screenshots of each page have been created and annotated in expandable sections below. Consideration has been taken as to spacing, how users interact with different screen sizes, colour scheme and achieving the goals set by the user stories.
 
 > 💡 *Note:* As mentioned above in the dataflow section, upon user testing, if it is deemed a better user experience the decision might be made to allow a guest user to add to cart, and then prompt them to sign in to finalise the checkout process.
 
