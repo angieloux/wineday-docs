@@ -107,19 +107,24 @@ Lastly, if an admin user profile is implemented in the MVP version of this app, 
 ![Dataflow (customer)](docs/diagrams/dataflow-user.png)
 Dataflow (role: guest)
 Anyone who visits the site will be able to have access to search/browse/filter functionality, but will be prompted to log in/sign up if they want to add things to their cart and check out. 
+> 💡 *Note:* upon user testing, if it is deemed a better user experience the decision might be made to allow a guest user to add to cart, and then prompt them to sign in to finalise the checkout process.
 
 ### Guest
 ![Dataflow (guest)](docs/diagrams/dataflow-guest.png)
 ## **Wireframes**
 Two screen sizes have been designed to reflect the UX/UI of the application, desktop and mobile. The tablet view will likely be a mid-point between the two, with the specifics being decided upon user testing (i.e. whether to implement a nav bar menu or a hamburger menu, etc).
 
-A demonstration of how a user will interact with the application is available for both mobile and dekstop in *.gif* form below. In addition, screenshots of each page have been created and annotated.
+A demonstration of how a user will interact with the application is available for both mobile and dekstop in *.gif* form below. In addition, screenshots of each page have been created and annotated in expandable sections below. Consideration has been taken as to spacing, how users interact with different screen sizes, colour scheme and achieving the goal set by the user stories.
+
+> 💡 *Note:* As mentioned above in the dataflow section, upon user testing, if it is deemed a better user experience the decision might be made to allow a guest user to add to cart, and then prompt them to sign in to finalise the checkout process.
+
+> 🧁 *Note:* An 'About Us' section has been included in the desktop wireframes, but this is purely as an example of what might be to come in future versions, and may not be included in the MVP stage of this app's development. 
 
 ### **Desktop**
 ![Wireframes demo - desktop](docs/wireframes/Wireframes-demo-desktop.gif)
 
 <details>   
-  <summary>ClICK to view wireframe screenshots for desktop</summary>
+  <summary style="font-weight:bold;">CLICK HERE to view wireframe screenshots for desktop</summary>
 
   ![Wireframe screenshot 1 (desktop)](docs/wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.29.51%20pm.png)
   ![Wireframe screenshot  (desktop)](docs/wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.30.12%20pm.png)
@@ -136,10 +141,12 @@ A demonstration of how a user will interact with the application is available fo
   ![Wireframe screenshot 13 (desktop)](docs/wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.32.30%20pm.png)
   </details>
 
+  <hr>
+
 ### **Mobile**
 ![Wireframes demo - mobile](docs/wireframes/Wireframes-demo-mobile.gif)
 <details>
-  <summary>ClICK to view wireframe screenshots for mobile</summary>
+  <summary style="font-weight:bold;">CLICK HERE to view wireframe screenshots for mobile</summary>
 
   ![Wireframe screenshot 1 (mobile)](docs/wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.32.40%20pm.png)
   ![Wireframe screenshot 2 (mobile)](docs/wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.32.45%20pm.png)
@@ -159,13 +166,11 @@ A demonstration of how a user will interact with the application is available fo
   ![Wireframe screenshot 16 (mobile)](docs/wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.59%20pm.png)
 
   </details>
+  <hr>
 
-
-
-
-  
 
 ## Project management workflow (Trello)
+Trello has been used to manage project tasks and progression. Below are a variety of screenshots that depict the initial documentation and planning portion of this app's development.
 
 ![Trello screenshot 1](docs/trello-screenshots/Screen%20Shot%202022-07-01%20at%201.52.28%20pm.png)
 ![Trello screenshot 2](docs/trello-screenshots/Screen%20Shot%202022-07-05%20at%204.22.15%20pm.png)
