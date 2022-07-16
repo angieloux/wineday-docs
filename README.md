@@ -1,5 +1,7 @@
 # **T3A2 (Part A) Documentation**
 
+[Github link](https://github.com/angieloux/wineday-front-end) | [Trello link](https://trello.com/b/7TaAyqk8/t3a2)
+
 <hr>
 
 # *Table of Contents*
@@ -194,7 +196,7 @@ A demonstration of how a user will interact with the application is available fo
 
 
 ## Trello workflow
-Trello has been used to manage project tasks and progression. Below are a variety of screenshots that depict the initial documentation and planning portion of this app's development.
+Trello has been used to manage project tasks and progression. Below are a variety of screenshots that depict the initial documentation and planning portion of this app's development. The Trello workspace can be found [here](https://trello.com/b/7TaAyqk8/t3a2).
 
 ![Trello screenshot 1](docs/trello-screenshots/Screen%20Shot%202022-07-01%20at%201.52.28%20pm.png)
 ![Trello screenshot 2](docs/trello-screenshots/Screen%20Shot%202022-07-05%20at%204.22.15%20pm.png)
@@ -208,3 +210,4 @@ Trello has been used to manage project tasks and progression. Below are a variet
 ![Trello screenshot 10](docs/trello-screenshots/Screen%20Shot%202022-07-07%20at%2012.12.46%20am.png)
 ![Trello screenshot 11](docs/trello-screenshots/Screen%20Shot%202022-07-07%20at%2012.13.45%20am.png)
 ![Trello screenshot 12](docs/trello-screenshots/Screen%20Shot%202022-07-07%20at%2012.13.53%20am.png)
+![Trello screenshot 13](docs/trello-screenshots/Screen%20Shot%202022-07-17%20at%208.30.15%20am.png)
