@@ -8,14 +8,14 @@
         - [Potential Future Features](#potential-future-features)
     - [Target Audience](#target-audience)
     - [Tech Stack](#tech-stack)
-    - [User stories](#user-stories)
-    - [Application Architecture Diagram](#application-arhitecture-diagram)
-    - [Dataflow Diagrams](#dataflow-diagrams)
-        - [Customer](#customer)
-        - [Guest](#guest)
-    - [Wireframes](#wireframes)
-        - [Mobile](#mobile)
-        - [Desktop](#desktop)
+- [User stories](#user-stories)
+- [Application Architecture Diagram](#application-architecture-diagram)
+- [Dataflow Diagrams](#dataflow-diagrams)
+    - [Customer](#customer)
+    - [Guest](#guest)
+- [Wireframes](#wireframes)
+    - [Mobile](#mobile)
+    - [Desktop](#desktop)
 
 ## **Purpose**
 This developer was an approached by a wine retailer, *WineDay*, based in the Yarra Valley. 
@@ -99,17 +99,17 @@ Lastly, if an admin user profile is implemented in the MVP version of this app, 
 > 🧁 *Note:* the admin user role is a sprinkle at this stage, and not intentionally being developed in the MVP (unless time permits).
 
 
-## **Application Architecture diagram**
+## **Application Architecture Diagram**
 
-![Application architecture](docs/diagrams/application-architecture.png)
+![Application Architecture Diagram](docs/diagrams/application-architecture.png)
 ## **Dataflow diagrams**
 ### Customer
-![Application architecture](docs/diagrams/dataflow-user.png)
+![Dataflow (customer)](docs/diagrams/dataflow-user.png)
 Dataflow (role: guest)
 Anyone who visits the site will be able to have access to search/browse/filter functionality, but will be prompted to log in/sign up if they want to add things to their cart and check out. 
 
 ### Guest
-![Application architecture](docs/diagrams/dataflow-guest.png)
+![Dataflow (guest)](docs/diagrams/dataflow-guest.png)
 ## **Wireframes**
 Two screen sizes have been designed to reflect the UX/UI of the application, desktop and mobile. The tablet view will likely be a mid-point between the two, with the specifics being decided upon user testing (i.e. whether to implement a nav bar menu or a hamburger menu, etc).
 
