@@ -18,6 +18,7 @@
 - [Wireframes](#wireframes)
     - [Mobile](#mobile)
     - [Desktop](#desktop)
+- [Trello Worflow](#trello-workflow)
 
 <hr>
 
@@ -192,7 +193,7 @@ A demonstration of how a user will interact with the application is available fo
   <hr>
 
 
-## Project management workflow (Trello)
+## Trello workflow
 Trello has been used to manage project tasks and progression. Below are a variety of screenshots that depict the initial documentation and planning portion of this app's development.
 
 ![Trello screenshot 1](docs/trello-screenshots/Screen%20Shot%202022-07-01%20at%201.52.28%20pm.png)
