@@ -1,5 +1,22 @@
 # **T3A2 (Part A) Documentation**
 
+# *Table of Contents*
+- [Purpose](#purpose)
+    - [Functionality and Features](#functionality-and-features)
+        - [All Users](#all-users)
+        - [Customer](#customer)
+        - [Potential Future Features](#potential-future-features)
+    - [Target Audience](#target-audience)
+    - [Tech Stack](#tech-stack)
+    - [User stories](#user-stories)
+    - [Application Architecture Diagram](#application-arhitecture-diagram)
+    - [Dataflow Diagrams](#dataflow-diagrams)
+        - [Customer](#customer)
+        - [Guest](#guest)
+    - [Wireframes](#wireframes)
+        - [Mobile](#mobile)
+        - [Desktop](#desktop)
+
 ## **Purpose**
 This developer was an approached by a wine retailer, *WineDay*, based in the Yarra Valley. 
 
@@ -16,7 +33,7 @@ The app's purpose is to fulfil the needs of the business as stated above. Simply
 
 If time allows, for this project, a user will also be able to save their wine preferences and the app will be able to give them new wine recommendations based on that. 
 
-## **Functionality/Features**
+## **Functionality and Features**
 The below are features associated with the first-stage MVP development of the WineDay app. 
 
 ### **All users**
@@ -28,7 +45,7 @@ Anyone that visits the WineDay site will be able to access the following feature
 - Sign up for an account
 - Log into an account
  
-### **Customer (logged in user)**
+### **Customer**
 Additionally, once authenticated, a logged in customer can:
 
 - Add wine to cart
@@ -37,7 +54,7 @@ Additionally, once authenticated, a logged in customer can:
 - Log out
 - View order history
 
-### **Potential future features (or, if time allows)**
+### **Potential future features**
 - Create a admin profile that has exclusive authority to update/delete/add new wine listings & view/amend user profiles.
 - A logged in user can add their wine preferences to their profile & recommendations can be made by the app based on this
 - Add "just in" tab for new wines
@@ -84,72 +101,81 @@ Lastly, if an admin user profile is implemented in the MVP version of this app, 
 
 ## **Application Architecture diagram**
 
-![Application architecture](./diagrams/application-architecture.png)
-## **Dataflow diagram**
-Dataflow (role: customer)
-![Application architecture](./diagrams/dataflow-user.png)
+![Application architecture](docs/diagrams/application-architecture.png)
+## **Dataflow diagrams**
+### Customer
+![Application architecture](docs/diagrams/dataflow-user.png)
 Dataflow (role: guest)
 Anyone who visits the site will be able to have access to search/browse/filter functionality, but will be prompted to log in/sign up if they want to add things to their cart and check out. 
-![Application architecture](./diagrams/dataflow-guest.png)
+
+### Guest
+![Application architecture](docs/diagrams/dataflow-guest.png)
 ## **Wireframes**
-![Wireframes demo - desktop](./wireframes/Wireframes-demo-desktop.gif)
-![Wireframes demo - mobile](./wireframes/Wireframes-demo-mobile.gif)
+Two screen sizes have been designed to reflect the UX/UI of the application, desktop and mobile. The tablet view will likely be a mid-point between the two, with the specifics being decided upon user testing (i.e. whether to implement a nav bar menu or a hamburger menu, etc).
+
+A demonstration of how a user will interact with the application is available for both mobile and dekstop in *.gif* form below. In addition, screenshots of each page have been created and annotated.
+
+### **Desktop**
+![Wireframes demo - desktop](docs/wireframes/Wireframes-demo-desktop.gif)
 
 <details>   
-  <summary>Desktop wireframe screenshots</summary>
+  <summary>ClICK to view wireframe screenshots for desktop</summary>
 
-  ![Wireframe screenshot 1 (desktop)](./wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.29.51%20pm.png)
-  ![Wireframe screenshot  (desktop)](./wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.30.12%20pm.png)
-  ![Wireframe screenshot 3 (desktop)](./wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.30.39%20pm.png)
-  ![Wireframe screenshot 4 (desktop)](./wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.30.51%20pm.png)
-  ![Wireframe screenshot 5 (desktop)](./wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.31.07%20pm.png)
-  ![Wireframe screenshot 6 (desktop)](./wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.31.15%20pm.png)
-  ![Wireframe screenshot 7 (desktop)](./wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.31.20%20pm.png)
-  ![Wireframe screenshot 8 (desktop)](./wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.31.35%20pm.png)
-  ![Wireframe screenshot 9 (desktop)](./wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.31.46%20pm.png)
-  ![Wireframe screenshot 10 (desktop)](./wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.31.56%20pm.png)
-  ![Wireframe screenshot 11 (desktop)](./wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.32.19%20pm.png)
-  ![Wireframe screenshot 12 (desktop)](./wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.32.25%20pm.png)
-  ![Wireframe screenshot 13 (desktop)](./wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.32.30%20pm.png)
+  ![Wireframe screenshot 1 (desktop)](docs/wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.29.51%20pm.png)
+  ![Wireframe screenshot  (desktop)](docs/wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.30.12%20pm.png)
+  ![Wireframe screenshot 3 (desktop)](docs/wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.30.39%20pm.png)
+  ![Wireframe screenshot 4 (desktop)](docs/wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.30.51%20pm.png)
+  ![Wireframe screenshot 5 (desktop)](docs/wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.31.07%20pm.png)
+  ![Wireframe screenshot 6 (desktop)](docs/wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.31.15%20pm.png)
+  ![Wireframe screenshot 7 (desktop)](docs/wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.31.20%20pm.png)
+  ![Wireframe screenshot 8 (desktop)](docs/wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.31.35%20pm.png)
+  ![Wireframe screenshot 9 (desktop)](docs/wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.31.46%20pm.png)
+  ![Wireframe screenshot 10 (desktop)](docs/wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.31.56%20pm.png)
+  ![Wireframe screenshot 11 (desktop)](docs/wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.32.19%20pm.png)
+  ![Wireframe screenshot 12 (desktop)](docs/wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.32.25%20pm.png)
+  ![Wireframe screenshot 13 (desktop)](docs/wireframes/desktop/Screen%20Shot%202022-07-15%20at%208.32.30%20pm.png)
   </details>
 
-  <details>
-  <summary>Mobile wireframe screenshots</summary>
+### **Mobile**
+![Wireframes demo - mobile](docs/wireframes/Wireframes-demo-mobile.gif)
+<details>
+  <summary>ClICK to view wireframe screenshots for mobile</summary>
 
-  ![Wireframe screenshot 1 (mobile)](./wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.32.40%20pm.png)
-  ![Wireframe screenshot 2 (mobile)](./wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.32.45%20pm.png)
-  ![Wireframe screenshot 3 (mobile)](./wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.32.49%20pm.png)
-  ![Wireframe screenshot 4 (mobile)](./wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.32.53%20pm.png)
-  ![Wireframe screenshot 5 (mobile)](./wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.32.58%20pm.png)
-  ![Wireframe screenshot 6 (mobile)](./wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.03%20pm.png)
-  ![Wireframe screenshot 7 (mobile)](./wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.12%20pm.png)
-  ![Wireframe screenshot 8 (mobile)](./wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.08%20pm.png)
-  ![Wireframe screenshot 9 (mobile)](./wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.18%20pm.png)
-  ![Wireframe screenshot 10 (mobile)](./wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.23%20pm.png)
-  ![Wireframe screenshot 11 (mobile)](./wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.29%20pm.png)
-  ![Wireframe screenshot 12 (mobile)](./wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.37%20pm.png)
-  ![Wireframe screenshot 13 (mobile)](./wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.43%20pm.png)
-  ![Wireframe screenshot 14 (mobile)](./wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.49%20pm.png)
-  ![Wireframe screenshot 15 (mobile)](./wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.54%20pm.png)
-  ![Wireframe screenshot 16 (mobile)](./wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.59%20pm.png)
+  ![Wireframe screenshot 1 (mobile)](docs/wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.32.40%20pm.png)
+  ![Wireframe screenshot 2 (mobile)](docs/wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.32.45%20pm.png)
+  ![Wireframe screenshot 3 (mobile)](docs/wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.32.49%20pm.png)
+  ![Wireframe screenshot 4 (mobile)](docs/wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.32.53%20pm.png)
+  ![Wireframe screenshot 5 (mobile)](docs/wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.32.58%20pm.png)
+  ![Wireframe screenshot 6 (mobile)](docs/wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.03%20pm.png)
+  ![Wireframe screenshot 7 (mobile)](docs/wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.12%20pm.png)
+  ![Wireframe screenshot 8 (mobile)](docs/wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.08%20pm.png)
+  ![Wireframe screenshot 9 (mobile)](docs/wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.18%20pm.png)
+  ![Wireframe screenshot 10 (mobile)](docs/wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.23%20pm.png)
+  ![Wireframe screenshot 11 (mobile)](docs/wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.29%20pm.png)
+  ![Wireframe screenshot 12 (mobile)](docs/wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.37%20pm.png)
+  ![Wireframe screenshot 13 (mobile)](docs/wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.43%20pm.png)
+  ![Wireframe screenshot 14 (mobile)](docs/wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.49%20pm.png)
+  ![Wireframe screenshot 15 (mobile)](docs/wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.54%20pm.png)
+  ![Wireframe screenshot 16 (mobile)](docs/wireframes/mobile/Screen%20Shot%202022-07-15%20at%208.33.59%20pm.png)
 
   </details>
+
+
+
+
+  
 
 ## Project management workflow (Trello)
-<details>
-  <summary>Click to expand</summary>
 
-![Trello screenshot 1](./trello-screenshots/Screen%20Shot%202022-07-01%20at%201.52.28%20pm.png)
-![Trello screenshot 2](./trello-screenshots/Screen%20Shot%202022-07-05%20at%204.22.15%20pm.png)
-![Trello screenshot 3](./trello-screenshots/Screen%20Shot%202022-07-06%20at%201.30.43%20pm.png)
-![Trello screenshot 4](./trello-screenshots/Screen%20Shot%202022-07-06%20at%205.02.47%20pm.png)
-![Trello screenshot 5](./trello-screenshots/Screen%20Shot%202022-07-06%20at%205.36.51%20pm.png)
-![Trello screenshot 6](./trello-screenshots/Screen%20Shot%202022-07-06%20at%209.34.33%20pm.png)
-![Trello screenshot 7](./trello-screenshots/Screen%20Shot%202022-07-06%20at%209.35.48%20pm.png)
-![Trello screenshot 8](./trello-screenshots/Screen%20Shot%202022-07-06%20at%209.37.00%20pm.png)
-![Trello screenshot 9](./trello-screenshots/Screen%20Shot%202022-07-07%20at%2012.12.41%20am.png)
-![Trello screenshot 10](./trello-screenshots/Screen%20Shot%202022-07-07%20at%2012.12.46%20am.png)
-![Trello screenshot 11](./trello-screenshots/Screen%20Shot%202022-07-07%20at%2012.13.45%20am.png)
-![Trello screenshot 12](./trello-screenshots/Screen%20Shot%202022-07-07%20at%2012.13.53%20am.png)
-
-</details>
+![Trello screenshot 1](docs/trello-screenshots/Screen%20Shot%202022-07-01%20at%201.52.28%20pm.png)
+![Trello screenshot 2](docs/trello-screenshots/Screen%20Shot%202022-07-05%20at%204.22.15%20pm.png)
+![Trello screenshot 3](docs/trello-screenshots/Screen%20Shot%202022-07-06%20at%201.30.43%20pm.png)
+![Trello screenshot 4](docs/trello-screenshots/Screen%20Shot%202022-07-06%20at%205.02.47%20pm.png)
+![Trello screenshot 5](docs/trello-screenshots/Screen%20Shot%202022-07-06%20at%205.36.51%20pm.png)
+![Trello screenshot 6](docs/trello-screenshots/Screen%20Shot%202022-07-06%20at%209.34.33%20pm.png)
+![Trello screenshot 7](docs/trello-screenshots/Screen%20Shot%202022-07-06%20at%209.35.48%20pm.png)
+![Trello screenshot 8](docs/trello-screenshots/Screen%20Shot%202022-07-06%20at%209.37.00%20pm.png)
+![Trello screenshot 9](docs/trello-screenshots/Screen%20Shot%202022-07-07%20at%2012.12.41%20am.png)
+![Trello screenshot 10](docs/trello-screenshots/Screen%20Shot%202022-07-07%20at%2012.12.46%20am.png)
+![Trello screenshot 11](docs/trello-screenshots/Screen%20Shot%202022-07-07%20at%2012.13.45%20am.png)
+![Trello screenshot 12](docs/trello-screenshots/Screen%20Shot%202022-07-07%20at%2012.13.53%20am.png)
