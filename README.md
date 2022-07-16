@@ -86,10 +86,10 @@ Lastly, if an admin user profile is implemented in the MVP version of this app, 
 
 ## **Tech stack**
 
-|Front-end|Back-end|Database|Project Management|Utilities|DevOps|
-|--|--|--|--|--|--|
-|React.js|Ruby (v2.7.5p203)|PostgreSQL|Trello|Draw.io|GitHub|
-|JavaScript|Rails (v6.1.6)|||Balsamiq|VSCode|
+|Front-end|Back-end|Database|Project Management|Utilities|DevOps|Deployment|
+|--|--|--|--|--|--|--|
+|React.js|Ruby (v2.7.5p203)|PostgreSQL|Trello|Draw.io|GitHub|Heroku(back-end)
+|JavaScript|Rails (v6.1.6)|||Balsamiq|VSCode|Netlify(front-end)
 |CSS3||||Visual Paradigm||
 |HTML5||||||
 |Material-UI||||||
