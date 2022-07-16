@@ -94,6 +94,8 @@ Lastly, if an admin user profile is implemented in the MVP version of this app, 
 |HTML5||||||
 |Material-UI||||||
 
+> 🧁 Note: Stripe may be used for a mock checkout process as well. 
+
 <hr>
 
 ## **User Stories**
@@ -107,6 +109,7 @@ Lastly, if an admin user profile is implemented in the MVP version of this app, 
 |Customer|add and remove items from my cart|change my mind if I don't want to commit to a purchase or add more that I do want
 |Customer|securely check out items in my cart|make a purchase of my desired wines
 |Customer|view my order history|to keep track of what I have ordered in the past and what I do/don't want to order again
+|Customer|sign up|to make a purchase & keep my private information secure
 |Customer|log in and out|to track my purchases and keep my account private and secure
 |Admin|log in and out|securely access the admin-only dashboard and log out when done to maintain security
 |Admin|view/create/amend/delete user profiles|to make necessary changes or sign up new customers
