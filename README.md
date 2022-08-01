@@ -1,6 +1,8 @@
 # **T3A2 (Part A) Documentation**
 
-[Github link](https://github.com/angieloux/wineday-front-end) | [Trello link](https://trello.com/b/7TaAyqk8/t3a2)
+- [Front-end](https://github.com/angieloux/wineday-front-end) (WIP) 🚧
+- [Back-end](https://github.com/angieloux/wineday-back-end) (WIP) 🚧 
+- [Trello link](https://trello.com/b/7TaAyqk8/t3a2)
 
 <hr>
 
