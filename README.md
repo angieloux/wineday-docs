@@ -1,8 +1,14 @@
-# **T3A2 (Part A) Documentation**
+# WineDay planning documentation
 
-- [Front-end](https://github.com/angieloux/wineday-front-end) (WIP) 🚧
-- [Back-end](https://github.com/angieloux/wineday-back-end) (WIP) 🚧 
-- [Trello link](https://trello.com/b/7TaAyqk8/t3a2)
+This is the planning repo for the WIP project, *WineDay*. 
+
+## Important links:
+- [Deployed site](https://wineday.netlify.app/) (Netlify)
+- [Front-end repo](https://github.com/angieloux/wineday-front-end) built in React and deployed on Netlify. This repo has additional documentation.
+- [Back-end repo](https://github.com/angieloux/wineday-back-end) built with Ruby on Rails and deployed on Heroku.
+- [Trello link](https://trello.com/b/7TaAyqk8/t3a2) planning for the project.
+
+![Wireframes demo - desktop](docs/wireframes/Wireframes-demo-desktop.gif)
 
 <hr>
 
